@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	background-color: white;
+	justify-content:left;
+	align-item:center;
+}
+.hero-image{
+	width:60%;
+	height:250px;
+	object-fit:cover;
+}
+.hero-text{
+	width:30%;
+	align-content: center;
+	margin-left: 5px;
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+}
+p{
+	font-size: 12px;
+}
+
+.button{
+	background-color: red;
+	padding: 5px;
+	color: white;
+	border-radius: 10px;
+	width: 30%;
+	height: 10%;
+	width: fit-content;
+	font-size: 10px;
+}
+.button:hover{
+	background-color: black;
+	padding: 5px;
+	color: white;
+	border-radius: 10px;
+	width: 30%;
+	height: 10%;
+	width: fit-content;
+	font-size: 10px;
+}
